@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\pg",
+    "\\src\\pg\\Controllers"
   ],
+  "SelectedNode": "\\src\\pg\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
