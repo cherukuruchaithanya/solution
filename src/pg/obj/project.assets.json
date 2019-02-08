@@ -12078,11 +12078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S531495\\Documents\\44663\\solution\\src\\pg\\pg.csproj",
+      "projectUniqueName": "C:\\Users\\S531495\\Documents\\44663\\New folder\\solution\\src\\pg\\pg.csproj",
       "projectName": "pg",
-      "projectPath": "C:\\Users\\S531495\\Documents\\44663\\solution\\src\\pg\\pg.csproj",
+      "projectPath": "C:\\Users\\S531495\\Documents\\44663\\New folder\\solution\\src\\pg\\pg.csproj",
       "packagesPath": "C:\\Users\\S531495\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S531495\\Documents\\44663\\solution\\src\\pg\\obj\\",
+      "outputPath": "C:\\Users\\S531495\\Documents\\44663\\New folder\\solution\\src\\pg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
