@@ -19,6 +19,11 @@ namespace pg.Controllers
         {
             return View();
         }
+         public IActionResult Html()
+        {
+            return Content("<!DOCTYPE html><html><body>Hello World</body></html>", "text/html");
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
