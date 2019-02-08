@@ -5,24 +5,24 @@ namespace UnitTests
 {
     public class UnitTest1
     {
-       {
+       
         [Fact]
         public void mutiplytwonumbers()
         {
-            var expected = 25;
-            var a = 5;
-            var b = 5; 
-            var actual = mutiply(a, b);
+            int expected = 25;
+            int a = 5;
+            int b = 5; 
+            int actual = mutiply(a, b);
             Assert.Equal(expected,actual);
         }
 
         [Fact]
         public void divitionoftwonumbers()
         {
-            var expected = 1;
-            var a = 5;
-            var b = 5;
-            var actual = division(a, b);
+            int expected = 1;
+            int a = 5;
+            int b = 5;
+            int actual = division(a, b);
             Assert.Equal(expected, actual);
         }
 
@@ -38,7 +38,7 @@ namespace UnitTests
 
         [Theory]
         [InlineData(4,2,2)]
-        [InlineData(-12, -7,-5)]
+        [InlineData(6, 3,2)]
         [InlineData(0, 0,0)]
         public void ismutiplyworksWithManyInputs(int exp, int n1, int n2)
         {
@@ -52,7 +52,7 @@ namespace UnitTests
             return x * y;
         }
 
-        bool division(int x, int y)
+        int division(int x, int y)
         {
             return x/y;
         }
